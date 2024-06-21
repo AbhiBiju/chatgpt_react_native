@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "chatgpt@latest",
-    "slug": "chatgpt@latest",
+    "name": "chatgpt_react_native",
+    "slug": "chatgpt_react_native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abhi.chatgpt"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abhi.chatgpt"
     },
     "web": {
       "bundler": "metro",
